@@ -25,7 +25,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/FallenXMusic"),
+                text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/t_c_c_network"),
             InlineKeyboardButton(
                 text="🥀 𝕊ᴜᴘᴘᴏʀ𝕋 🥀", url=f"{config.SUPPORT_GROUP}"
             ),
@@ -34,7 +34,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     return buttons
 
 
-def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
+def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/shubhamsah1"):
     buttons = [
         [
             InlineKeyboardButton(
@@ -48,14 +48,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
-            InlineKeyboardButton(text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/FallenXMusic"),
+            InlineKeyboardButton(text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/t_c_c_network"),
             InlineKeyboardButton(
                 text="🥀 𝕊ᴜᴘᴘᴏʀ𝕋 🥀", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="𓊈𒆜🎼𝔻eͥѵeͣlͫ𐍉קeℝ🎼𒆜𓊉", url=f"https://t.me/ll_ll_LegendHacker_IN_ll_ll"
+                    text="𓊈𒆜🎼𝔻eͥѵeͣlͫ𐍉קeℝ🎼𒆜𓊉", url=f"https://t.me/shubhamsah1"
                 )
         ],
      ]
