@@ -7,14 +7,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "20594535"))
-API_HASH = getenv("API_HASH", "40d94b8c167104937b2846efa895bef7")
-BOT_TOKEN = getenv("BOT_TOKEN", "5827831914:AAECgGn1TfthXFCIYPI4ramwabdxeulmOJo")
+API_ID = int(getenv("API_ID", "18960528"))
+API_HASH = getenv("API_HASH", "cc0fff577b677c9b2b4de5dd5bc5dfd1")
+BOT_TOKEN = getenv("BOT_TOKEN", "5983601762:AAFu5qJs4CKj3DhQz77_Fe9kPHuxK9kBhV4")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001614632485"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001715071938"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『˹𝑳𝒐𝒗𝒆𝒓 ✘ ℳ𝓾𝓼𝓲c͢˼』")
-OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1548904516").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1548904516").split()))
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/t_c_c_network")
 SUPPORT_GROUP = getenv(
@@ -74,11 +73,11 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", "AQB2Fjl_p_bx6B7p0a9if5QnFuYCwWhvq1b4OX-8aol3MdCsNI_92ynYD2Qva9LAueziCQwQEErdFuH3v1EwDn1uqRKDQnQFjSWV_p18yKE0hT8AffJBmNb3M4O0a4amhxh1Zch5wAiMIbs8-VwIWmvkfNhk6kxRGsjedHyXhBeyAeo9F46XVIlYTaPTGudVdVjdetRIizx3LH7s4bgxEu2e7GI6XgMmVfYhTKvKp2Yqgk7AkWaYV-QBVsNkh4h-6UTHjK2MGrfgICyigrELuP90wkbxmHw-IhLPWOXEjVbsPq9QzUhSPeoaO5C818InhkBk-6GTnE3qp6nOL586XYWNAAAAAVibv00A")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", "BQAXnvKgbyvQFWZDrfQZek1hMl7D-aSlYFLd7ysgQUt0spOKsgzsQGSjUqTbTPr5dLQQL65zOQFjrVc2D-KYzy0xpWlnoHO-awIH_GRD9bGtT9UjdUKchDBg9AC6eJKah3oV-VVGljJ6wYlaoItyqf1HXzBEue3KfQr8UXM2AwYVco36gO7lfn6IDei-X_jGfNx8e_DinWpOyaPGEDe1k_3iT1HJB7_6wnMTKomfK3Hfk4R5MNIhvs9hkgWiElFtUUXlrr60bRLLPzpo6dgcLz-V-ENiB6NqcpHYObSt29BJ6EcU4eNMZvG5TwP-ovR8_Ic6VepApaKS6kNYm6JLe2zZAAAAAHNa0esA")
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING3 = getenv("STRING_SESSION3", "")
+STRING4 = getenv("STRING_SESSION4", "")
+STRING5 = getenv("STRING_SESSION5", "")
 
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
